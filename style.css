@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("cool-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #003F87;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+header .navigation a{
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 25px;
+
+}
+
+header .navigation a:hover{
+    background: #fff;
+    font-size: 120%;
+
+
+
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+
+}
+
+.content .info h2{
+
+    color: orange;
+    opacity: 0.9;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 1px #8a2be2;
+}
+
+
+.content .info h2 span{
+    color: #fff;
+    -webkit-text-stroke: 1px lightskyblue;
+    font-weight: 600;
+
+}
+
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.content .info-Btn{
+    background-color: #8a2be2;
+    color: yellow;
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.content .info-Btn:hover{
+    background-color: darkmagenta;
+}
+
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.social a{
+    position: relative;
+    color: #111e117b;
+    font-size: 25px;
+    transition: 0.4s;
+    transition-property: transform;
+    margin-bottom: 20px;
+}
+
+.social a:not(:last-child){
+    margin-right: 60px;
+}
+
+.social a:hover{
+    color: blue;
+    transform: scale(1.5);
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#ED872D,#512889)
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#FEF720,#1C6FF8)
+}
